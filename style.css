@@ -7,7 +7,6 @@ body {
 .header {
     display: grid;
     position: relative;
-    
     grid-template-columns: auto 1fr auto;
     justify-content: space-between;
     align-items: center;
@@ -47,12 +46,69 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 10px; /* Height of the blurred border */
-    background: #089da1; /* Color of the blurred border, adjust opacity as needed */
-    filter: blur(5px); /* Adjust blur radius as needed */
+    height: 10px; 
+    background: #089da1; 
+    filter: blur(5px); 
     z-index: -1; /* Ensure the blurred border is behind the header content */
 }
+/* features of book store */
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.box-container .box{
+    width: 20%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem 0.3rem;
+    border: none; 
+    box-shadow: 0 0 10px 5px #94d5d7;
+}
+.box-container .icon{
+    color: #089da1;
+    font-size: 30px;
+}
 
+/*About section */
+.about-us .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.image-section{
+    width: 900px;
+    margin: auto;
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+    margin-left: 2rem;
+} 
+.content-section{
+    margin-left: 3rem;
+    width: 600px;
+    text-align: justify;
+    padding-right: 1rem;
+    margin-right: 3rem;
+}
+
+#btn{
+    display: inline-block;
+    background-color: rgba(8, 157, 161, 1);
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+    margin-top: 2rem;
+}
 
 
 
