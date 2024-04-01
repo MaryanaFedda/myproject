@@ -2,21 +2,22 @@ body {
     margin: 0;
     height: 100%;
     background-color: #ffffff;
+   
     
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #089da1; /* Thumb color */
-    border-radius: 8px; /* Round the edges of the thumb */
+    background-color: #089da1; 
+    border-radius: 8px; 
 }
 ::-webkit-scrollbar-track {
-    background-color: #f0f0f0; /* Track color */
+    background-color: #f0f0f0; 
 }
 
-/* Set the width of the scrollbar */
+
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 300px; /* Width of the scrollbar */
+    width: auto;
+    height: 6px; 
 }
 
 .header {
@@ -76,26 +77,24 @@ body {
 }
 
 
-
-
-
-
-/*welcomeSection*/
 .main{ 
     max-width: 1300px; 
     margin: 0 auto;}
+
+
+/*welcomeSection*/
 
 .welcomeSection
 {
 background-image: url(./images/bg.png);
 background-size: cover; 
-background-position: center  top -100px;;
-height: 100vh;
+background-position: center  top -70px;
+height: 90vh;
 padding: 0;
 display: grid;
 grid-template-columns:  1fr 1fr ;
 grid-template-rows: auto;
-grid-gap: 140px;
+grid-gap: 160px;
 
 /*here is top*/
 
@@ -103,7 +102,7 @@ grid-gap: 140px;
 
 .welcomeText {
 
-    padding-top:80px;
+    padding-top:140px;
     h1{font-size: 40px;}
 
     h1 span{display:block;}
@@ -124,5 +123,251 @@ padding:7px 20px;}
 }
 
 .welcomeImage{
-    padding-top:70px;  
+    padding-top:120px;  
 }
+
+
+
+/* features of book store BOXES */
+.box-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.box-container .box{
+    width: 20%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem 0.3rem;
+    border: none; 
+    box-shadow: 0 0 10px 5px #94d5d7;
+}
+.box-container .icon{
+    color: #089da1;
+    font-size: 30px;
+}
+
+/*About section */
+.about-us .container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    h2{font-size:30px;}
+}
+.image-section{
+    width: 900px;
+    margin: auto;
+}
+
+.image-section img{
+    width: 100%;
+    height: auto;
+    margin-left: 2rem;
+} 
+.content-section{
+    margin-left: 3rem;
+    width: 600px;
+    text-align: justify;
+    padding-right: 1rem;
+    margin-right: 3rem;
+}
+
+#btn{
+    display: inline-block;
+    background-color: rgba(8, 157, 161, 1);
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+    margin-top: 2rem;
+}
+
+/*featured books section*/
+
+
+.featuredBooks{
+  height: 80vh;
+    text-align: center;
+    h2{padding:50px 0; font-size: 30px;}
+    .slider {
+        overflow-x: auto; 
+    white-space: nowrap;
+    text-align: center;
+        display: flex; 
+        padding: 5px;
+
+        div{  display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           text-align: center;
+           padding:10px 10px;
+            margin-right: 30px;
+            border: 1px solid black;
+            
+            img{display: block; 
+                max-width: 100%; 
+                height: 150px;
+             }
+
+                span{display: block;}
+                button {color:black;
+                    background-color: #ffffff;
+                    border: 2px solid #089da1;
+                    padding:5px 20px;
+                margin-bottom: 5px;}
+
+                    .authorName {color:gray; font-size: 16px;}
+                    .bookType{color: #089da1; font-size: 16px;}
+      }
+     div:hover{border:2px solid rgb(8, 157, 161);
+        box-shadow: 0 0 5px rgba(8, 157, 161, 0.3);
+
+        }
+        
+    }
+        
+}
+/*New Arrivals Section*/
+.newArrivals{
+    h2{padding:20px 0;
+        font-size: 30px;}
+ height: 100vh;
+    text-align: center;
+    justify-content: center;
+
+     .newArrivalsContainer{
+        padding: 2px 100px;
+        display: grid;
+  grid-template-columns:repeat(5, 1fr) ;
+  grid-template-rows: repeat(2, 1fr);  
+  justify-content: center;
+    row-gap: 20px;
+    column-gap:30px ;
+        div{  display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           text-align: center;
+           padding: 5px 0;
+            
+           
+
+            border: 1px solid black;
+            img{display: block; 
+                max-width: 100%; 
+                height: 150px;
+                
+                transition: transform 0.3s ease;
+             }
+
+                span{display: block; color:#089da1; padding-bottom: 10px;}
+                button {color:black;
+                    background-color: #ffffff;
+                    border: 2px solid #089da1;
+                    padding:5px 20px;
+                margin-bottom: 5px;}
+
+                    .authorName {color:gray; font-size: 16px;}
+                    .bookType{color: #089da1; font-size: 16px;}
+    
+    
+    .imageContainer{overflow: hidden; border: none;}
+    .imageContainer:hover{border: none;}
+    
+    }
+    div:hover{border:2px solid rgb(8, 157, 161);
+        box-shadow: 0 0 5px rgba(8, 157, 161, 0.3);
+
+        img:hover{ transform: scale(1.1);}
+
+}}
+
+}
+
+/*Digital Block section */
+.digitalBlock{
+  
+        position: relative;
+        display: inline-block;
+      
+padding-top: 20px;
+   img{max-width: 100%;
+}
+button{
+ position: absolute;
+top: 65%; 
+left: 7%;
+background-color:#089da1;
+padding: 10px 20px;
+border: none;
+color: white;
+font-size: 16px;
+cursor: pointer;
+
+} 
+}
+ .ourBlog{
+    
+    h2{font-size: 30px; 
+        text-align: center;}
+        h3{color: #089da1;}
+    
+.bloggerContainer{ display: grid;
+    grid-template-columns:repeat(3, 1fr) ; 
+    justify-content: center;
+    gap:50px;
+
+div{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+
+  .image{overflow: hidden; 
+       max-width:  100%;
+ height:266.45px;
+border: none;
+box-shadow: none;}  
+
+    
+
+    .firstImage{max-width:100% ;
+        height: auto; 
+       
+    }
+.editedImages{
+    max-width:100% ;
+        height: auto; 
+        display: block;
+        margin-top: -62px;
+}
+
+
+    span{display:flex; 
+        justify-content: space-between;
+    i{color:#089da1;}}
+
+        .bloggerInfo{padding:10px 20px; 
+        border:none;
+        box-shadow: none;}
+}
+
+
+
+}
+
+
+
+}
+
+
+
+
+
