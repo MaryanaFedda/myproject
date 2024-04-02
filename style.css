@@ -24,8 +24,16 @@ body {
 /*header section */
 .header {
     display: grid;
+<<<<<<< HEAD
     top:0;
     position: sticky; 
+=======
+  
+    top:0;
+    position: sticky; 
+    
+
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
     grid-template-columns: auto 1fr auto;
     justify-content: space-around;
     align-items: center;
@@ -40,6 +48,7 @@ body {
   }
 
 .nav {
+   
     display: flex;
     justify-content: center;
    flex-wrap: wrap;
@@ -101,15 +110,22 @@ grid-gap: 162px;
 }
 
 .welcomeText {
+<<<<<<< HEAD
+=======
+
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
     padding-top:140px;
     h1{font-size: 40px;}
 
     h1 span{display:block;}
 
    .titleColor{color:#089da1;} 
+<<<<<<< HEAD
    p{
     text-align: justify;
    }
+=======
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
 
 p{ 
    
@@ -235,10 +251,58 @@ padding:7px 20px;}
         
 }
 
+<<<<<<< HEAD
+=======
+/*featured books section*/
+.featuredBooks{
+  height: 80vh;
+    text-align: center;
+    h2{padding:50px 0; font-size: 30px;}
+    .slider {
+        overflow-x: auto; 
+    white-space: nowrap;
+    text-align: center;
+        display: flex; 
+        padding: 5px;
+
+        div{  display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           text-align: center;
+           padding:10px 10px;
+            margin-right: 30px;
+            border: 1px solid black;
+            
+            img{display: block; 
+                max-width: 100%; 
+                height: 150px;
+             }
+
+                span{display: block;}
+                button {color:black;
+                    background-color: #ffffff;
+                    border: 2px solid #089da1;
+                    padding:5px 20px;
+                margin-bottom: 5px;}
+
+                    .authorName {color:gray; font-size: 16px;}
+                    .bookType{color: #089da1; font-size: 16px;}
+      }
+     div:hover{border:2px solid rgb(8, 157, 161);
+        box-shadow: 0 0 5px rgba(8, 157, 161, 0.3);
+
+        }
+        
+    }
+        
+}
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
 /*New Arrivals Section*/
 .newArrivals{
     height: 100vh;
     box-sizing: border-box;
+<<<<<<< HEAD
     text-align: center;
     justify-content: center;
     h2{padding:20px 0;
@@ -252,6 +316,22 @@ padding:7px 20px;}
         justify-content: center;
         row-gap: 20px;
         column-gap:80px ;
+=======
+    h2{padding:20px 0;
+        font-size: 30px;}
+ 
+    text-align: center;
+    justify-content: center;
+
+     .newArrivalsContainer{
+        padding: 2px 0px;
+        display: grid;
+  grid-template-columns:repeat(5, 1fr) ;
+  grid-template-rows: repeat(2, 1fr);  
+  justify-content: center;
+    row-gap: 20px;
+    column-gap:80px ;
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
     
         div{  display: flex;
             flex-direction: column;
@@ -272,7 +352,11 @@ padding:7px 20px;}
                     background-color: #ffffff;
                     border: 2px solid #089da1;
                     padding:5px 20px;
+<<<<<<< HEAD
                     margin-bottom: 5px;}
+=======
+                margin-bottom: 5px;}
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
 
                     .authorName {color:gray; font-size: 16px;}
                     .bookType{color: #089da1; font-size: 16px;}
@@ -287,6 +371,10 @@ padding:7px 20px;}
         box-shadow: 0 0 5px rgba(8, 157, 161, 0.3);
 
         img:hover{ transform: scale(1.1);}
+<<<<<<< HEAD
+=======
+
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
 }}
 
 }
@@ -342,6 +430,12 @@ justify-content: space-between;
         color: #089da1;
     }
  }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
 }
 
    /* display: flex;
@@ -381,6 +475,14 @@ padding-top: 1rem;
     text-align: justify;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
 /*Digital Block section */
 .digitalBlock{
   
@@ -411,6 +513,7 @@ cursor: pointer;
         text-align: center;}
         h3{color: #089da1;}
     
+<<<<<<< HEAD
 .bloggerContainer{ 
     display: grid;
     grid-template-columns:repeat(3, 1fr) ; 
@@ -419,6 +522,13 @@ cursor: pointer;
 p{
     text-align: justify;
 }
+=======
+.bloggerContainer{ display: grid;
+    grid-template-columns:repeat(3, 1fr) ; 
+    justify-content: center;
+    gap:79px;
+
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
 div{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 
@@ -430,6 +540,10 @@ border: none;
 box-shadow: none;}  
 
     
+<<<<<<< HEAD
+=======
+
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
     .firstImage{max-width:100% ;
         height: auto; 
        
@@ -450,7 +564,17 @@ box-shadow: none;}
         border:none;
         box-shadow: none;}
 }
+<<<<<<< HEAD
 }
+=======
+
+
+
+}
+
+
+
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
 }
 
 
@@ -467,13 +591,18 @@ padding: 0px 82px;
     img{width: 37%;
     height: 20%;
 padding-top: 5px;}
+<<<<<<< HEAD
 p{
     text-align: justify;
 }
+=======
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
 }
 
 .quickLink{
     .links{display: flex;
+<<<<<<< HEAD
+=======
     flex-direction: column;
 a{text-decoration: none;
 color: #000000;
@@ -525,4 +654,83 @@ width: 50%;}
    
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+   /* background-color: rgba(234, 234, 234, 1);
+    display: flex;
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
+    flex-direction: column;
+a{text-decoration: none;
+color: #000000;
+padding: 2px 0;}}
+}
+
+.contactsInfo{
+    .contactDetails{
+         display: grid;
+         grid-template-rows: repeat(3,1fr);
+         gap: 7px;
+    }
+}
+
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    a{color: #000000;}
+   
+}
+
+.newsLetter{
+    div{display:flex;
+flex-direction: column;
+gap: 5px;
+
+input{ border: 1px solid #ccc;
+    border-radius: 50px; 
+    padding: 8px;
+background-color: #ccc;}
+
+button{color: black;
+    background-color:#089da1;
+    border:none;
+    color: #f0f0f0;
+    border-radius: 50px;
+    padding: 5px 20px; 
+width: 50%;}
+}
+}
+
+.singuatre{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: center;
+    span,i{color: #089da1;}
+   
+}
+
+<<<<<<< HEAD
+}
+=======
+footer .newsletter{
+    flex-grow: 1;
+    flex-basis: 100%;
+}*/
+>>>>>>> d4d56494b57e228adac5fac8d20ef23d9eb73325
