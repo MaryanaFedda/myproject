@@ -1,2 +1,2 @@
 # myproject
-This is my project for Book Store
+This is our site for Book Store
