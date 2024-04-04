@@ -117,6 +117,7 @@ grid-gap: 162px;
 p{ 
     font-size: 16px;
     padding-bottom: 50px;
+    text-align: justify;
 }
 
 button {color:white;
@@ -186,15 +187,11 @@ padding:7px 20px;}
 }
 
 #btn{
-    display: inline-block;
-    background-color: rgba(8, 157, 161, 1);
-    color: #ffffff;
-    padding: 10px 20px;
-    font-size: 20px;
-    cursor: pointer;
-    border: none;
-    transition: 0.3s ease;
-    margin-top: 2rem;
+    color:white;
+background-color: #089da1;
+border: none;
+padding:7px 20px;
+margin-top: 2rem;
 }
 
 /*featured books section*/
@@ -408,7 +405,9 @@ cursor: pointer;
     grid-template-columns:repeat(3, 1fr) ; 
     justify-content: center;
     gap:79px;
-
+p{
+    text-align: justify;
+}
 div{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 
